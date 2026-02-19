@@ -328,7 +328,6 @@ describe('SecretsProvidersConnectionsService', () => {
 			providerKey: 'my-aws',
 			type: 'awsSecretsManager',
 			encryptedSettings: '{"apiKey":"secret"}',
-			isEnabled: true,
 			projectAccess: [],
 			createdAt: new Date('2024-01-01'),
 			updatedAt: new Date('2024-01-02'),
@@ -378,7 +377,6 @@ describe('SecretsProvidersConnectionsService', () => {
 			providerKey: 'my-aws',
 			type: 'awsSecretsManager',
 			encryptedSettings: '{"apiKey":"secret"}',
-			isEnabled: true,
 			projectAccess: [
 				{ project: { id: 'p1', name: 'Project 1' } },
 				{ project: { id: 'p2', name: 'Project 2' } },
@@ -697,7 +695,6 @@ describe('SecretsProvidersConnectionsService', () => {
 			providerKey: 'my-aws',
 			type: 'awsSecretsManager',
 			encryptedSettings: '{"apiKey":"secret"}',
-			isEnabled: true,
 			projectAccess: [],
 			createdAt: new Date('2024-01-01'),
 			updatedAt: new Date('2024-01-02'),
